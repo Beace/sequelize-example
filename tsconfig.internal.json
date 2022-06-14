@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@sequelize/core": ["node_modules/@sequelize/core/types/index.d.ts"],
+      "@sequelize/core/_non-semver-use-at-your-own-risk_/*": ["node_modules/@sequelize/core/types/*"],
+      "@sequelize/core/package.json": ["node_modules/@sequelize/core/package.json"]
+    }
+  }
+}

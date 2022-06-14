@@ -1,0 +1,21 @@
+{
+  "name": "sequelize-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:purejs": "node ./src/index",
+    "build:commonjs": "tsc -p ./tsconfig.commonjs.json",
+    "build:nodenext": "tsc -p ./tsconfig.nodenext.json",
+    "build:internal": "tsc -p ./tsconfig.internal.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.42"
+  }
+}
